@@ -1,6 +1,10 @@
 # MyConfiguracion
 Mi configuracion de fedora con i3 y polybar.
 
+<p align="center">
+  <img src="imagen.png" alt="Polybar">
+</p>
+
 ## clonamos el repo
 
 ```
