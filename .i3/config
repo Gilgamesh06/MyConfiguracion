@@ -29,19 +29,18 @@ exec --no-startup-id nm-applet
 
 # volumen icon
 exec --no-startup-id volumeicon
-# internet 
-# exec --no-startup-id /home/lain/internet.sh
 
 # Set desktop resolution to 1366x768
-exec xrandr --output eDP1 --mode 1366x768
+# exec xrandr --output eDP1 --mode 1366x768
+
 # cambio de fondo de escritorio
-exec --no-startup-id feh --bg-scale /home/lain/fondos/pantalla.jpg
+exec --no-startup-id feh --bg-scale ~/MyConfiguracion/fondo/pantalla.jpg
 
 # Composición compton
-exec --no-startup-id compton --config /home/lain/.config/compton/compton.conf
+exec --no-startup-id compton --config ~/.config/compton/compton.conf
 
 # polybar
-exec --no-startup-id /home/lain/.config/polybar/launch.sh
+exec --no-startup-id ~/.config/polybar/launch.sh
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -224,7 +223,3 @@ exec i3-config-wizard
 
 # You can also use any non-zero value if you'd like to have a border
 for_window [class=".*"] border pixel 2
-
-# Adds gaps
-#gaps inner 12
-#gaps outer 12
