@@ -83,8 +83,6 @@ $ mv ~/MyConfiguracion/.i3/config  ~/.config
 
 ```
 
-** Fondo de pantalla **
+**Fondo de pantalla**
 
-<p>
 	Si desea cambiarlo edite la **linea 37** del archivo config de que esta en la carpeta `~/.i3`
-</p>
