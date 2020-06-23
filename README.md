@@ -60,7 +60,7 @@ $ mv ~/MyConfiguracion/polybar  ~/.config
 
 ## i3
 
-** Si no a instalado i3 **
+**Si no a instalado i3**
 
 ### Debian derivados
 
@@ -85,4 +85,4 @@ $ mv ~/MyConfiguracion/.i3/config  ~/.config
 
 **Fondo de pantalla**
 
-*Si desea cambiarlo edite la linea 37 del archivo config de que esta en la carpeta `~/.i3`*
+*Si desea cambiarlo edite la **linea 37** del archivo config de que esta en la carpeta `~/.i3`*
