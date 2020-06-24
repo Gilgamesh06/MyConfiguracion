@@ -5,7 +5,7 @@ Mi configuracion de i3 y polybar.
   <img src="imagen.png" alt="Polybar">
 </p>
 
-## clonamos el repo
+## Clonan el repositorio
 
 ```
 $ cd ~
@@ -23,7 +23,6 @@ $ cd ~/MyConfiguracion/
 $ tar -xzvf "nombre de losr archivos con extencion"
 $ mv ~/MyConfiguracion/themas/thema/trollwut-pink-dark /usr/share/themes/
 $ mv ~/MyConfiguracion/themas/iconos/Simply-Pink-Circles /usr/share/icons
-$ mv ~/MyConfiguracion/themas/rofi/solarized-darker.rasi /usr/share/rofi/themes
 ```
 
 ## Administrar temas
@@ -38,17 +37,71 @@ $ mv ~/MyConfiguracion/themas/rofi/solarized-darker.rasi /usr/share/rofi/themes
 $ sudo apt-get install lxappearance
 ```
 
-### fedora 
+### Fedora 
 
 ```
 $ sudo dnf install lxappearance
 ```
 
+## Rofi 
+
+**Instalacion**
+
+### Debian o derivados 
+
+```
+$ sudo apt-get install rofi
+```
+
+### Fedora 
+
+```
+$ sudo dnf install rofi
+```
+
+## Tema Rofi
+
+```
+$ mv ~/MyConfiguracion/themas/rofi/solarized-darker.rasi /usr/share/rofi/themes
+```
+
+
+
 ## Compton
+
+**Instalacion**
+
+### Debian o derivados 
+
+```
+$ sudo apt-get install compton
+```
+
+### Fedora 
+
+```
+$ sudo dnf install compton
+```
 
 ```
 $ mv ~/MyConfiguracion/compton  ~/.config
 ```
+## Feh
+
+**Instalacion**
+
+### Debian o derivados 
+
+```
+$ sudo apt-get install feh
+```
+
+### Fedora 
+
+```
+$ sudo dnf install feh
+```
+
 
 ## Polybar 
 
@@ -68,7 +121,7 @@ $ apt install libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev lib
 
 ```
 
-### fedora 
+### Fedora 
 
 
 ```
@@ -138,3 +191,26 @@ $ mv ~/MyConfiguracion/.i3/config  ~/.config
 **Fondo de pantalla**
 
 *Si desea cambiarlo edite la **linea 37** del archivo config de que esta en la carpeta `~/.i3`*
+
+**Terminal**
+*la terminal por default es tilix si desea puede cambiarla modifique la *Linea 70* 
+
+<p>
+	si desea instalar **tilix** 
+</p>
+
+### Debian derivados
+
+```
+$ sudo apt-get install tilix
+
+```
+## Fedora
+
+```
+$ sudo dnf install tilix
+
+```
+
+
+
