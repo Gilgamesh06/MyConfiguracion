@@ -135,7 +135,7 @@ $ sudo dnf install -y xcb-util-xrm-devel xcb-util-cursor-devel alsa-lib-devel pu
 
 
 <p>
-	Si su distro tiene paquete no tiene que instalarlo manual
+	Si su distro tiene paquete no tiene que instalarlo manualmente
 	consulte : https://github.com/polybar/polybar
 </p>
 
