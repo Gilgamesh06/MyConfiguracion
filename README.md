@@ -1,4 +1,5 @@
 # MyConfiguracion
+
 Mi configuracion de i3 y polybar.
 
 <p align="center">
@@ -28,7 +29,7 @@ $ mv ~/MyConfiguracion/themas/iconos/Simply-Pink-Circles /usr/share/icons
 ## Administrar temas
 
 <p>
-	Para ello primero instalarelos: 
+	Para ello primero instalarelos: lxappearance
 </p>
 
 ### Debian o derivados 
@@ -107,7 +108,7 @@ $ sudo dnf install feh
 
 ## Polybar 
 
-### Dependencias 
+## Dependencias 
 
 ### Debian o derivados 
 
