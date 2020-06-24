@@ -1,5 +1,5 @@
 # MyConfiguracion
-Mi configuracion de fedora con i3 y polybar.
+Mi configuracion de i3 y polybar.
 
 <p align="center">
   <img src="imagen.png" alt="Polybar">
@@ -15,7 +15,7 @@ $ git clone https://github.com/Gilgamesh06/MyConfiguracion.git
 ## Instalacion de los temas.
 
 <p>
-	deberan descomprimir los arhivos yluego moverlos los temas descargados a las capertas pertinentes
+	debera descomprimir los arhivos y luego moverlos los temas descargados a las capertas pertinentes
 </p>
 
 ```
@@ -52,10 +52,59 @@ $ mv ~/MyConfiguracion/compton  ~/.config
 
 ## Polybar 
 
+**Si no tiene instalado polybar**
+ 
+
+### Dependencias 
+
+### Debian o derivados 
+
+```
+$ apt install build-essential git cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev
+
+```
+```
+$ apt install libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev i3-wm libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev
+
+```
+
+### fedora 
+
+
+```
+$ sudo dnf install -y cairo-devel xcb-util-devel libxcb-devel xcb-proto xcb-util-image-devel xcb-util-wm-devel
+```
+```
+$ sudo dnf install -y xcb-util-xrm-devel xcb-util-cursor-devel alsa-lib-devel pulseaudio-libs-devel i3-ipc jsoncpp-devel libmpdclient-devel libcurl-devel wireless-tools-devel libnl3-devel
+
+```
+## Instalacion polybar 
+
+
+<p>
+	Si su distro tiene paquete no tiene que instalarlo manual
+	consulte : https://github.com/polybar/polybar
+</p>
+
+<p>
+	Descarge el archivo .tar de : https://github.com/polybar/polybar/releases 
+</p>
+
+
+``` 
+$ tar -xzvf "el archivo descargado con extencion"
+```
+```
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make -j$(nproc)
+$ sudo make install
+```
+### Tema polybar
 
 ```
 $ mv ~/MyConfiguracion/polybar  ~/.config
-
 ```
 
 ## i3
@@ -63,6 +112,7 @@ $ mv ~/MyConfiguracion/polybar  ~/.config
 **Si no a instalado i3**
 
 ### Debian derivados
+
 
 ```
 $ sudo apt-get install i3
@@ -74,6 +124,8 @@ $ sudo apt-get install i3
 $ sudo dnf install i3
 
 ```
+
+### i3 archivo
 
 
 ```
