@@ -193,13 +193,12 @@ $ mv ~/MyConfiguracion/.i3/config  ~/.config
 *Si desea cambiarlo edite la **linea 37** del archivo config de que esta en la carpeta `~/.i3`*
 
 **Terminal**
-*la terminal por default es tilix si desea puede cambiarla modifique la *Linea 70* 
 
-<p>
-	si desea instalar **tilix** 
-</p>
+la terminal por default es tilix si desea puede cambiarla modifique la **Linea 70** 
 
-### Debian derivados
+Si desea instalar **tilix.** 
+
+### Debian o derivados
 
 ```
 $ sudo apt-get install tilix
