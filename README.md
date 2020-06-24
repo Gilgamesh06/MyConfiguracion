@@ -82,10 +82,12 @@ $ sudo apt-get install compton
 ```
 $ sudo dnf install compton
 ```
+### Arhivo de configuracion
 
 ```
 $ mv ~/MyConfiguracion/compton  ~/.config
 ```
+
 ## Feh
 
 **Instalacion**
@@ -104,9 +106,6 @@ $ sudo dnf install feh
 
 
 ## Polybar 
-
-**Si no tiene instalado polybar**
- 
 
 ### Dependencias 
 
@@ -162,7 +161,7 @@ $ mv ~/MyConfiguracion/polybar  ~/.config
 
 ## i3
 
-**Si no a instalado i3**
+**Instalacion**
 
 ### Debian derivados
 
