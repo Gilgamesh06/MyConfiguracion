@@ -1,5 +1,5 @@
 <div style="color:#ff1493">
-	# MyConfiguracion
+	 MyConfiguracion
 </div>
 Mi configuracion de i3 y polybar.
 
