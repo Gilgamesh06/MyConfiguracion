@@ -1,4 +1,4 @@
-<p style="color:#ff1493">
+<p style="color:#ff1493";>
 	MyConfiguracion
 </p>
 Mi configuracion de i3 y polybar.
