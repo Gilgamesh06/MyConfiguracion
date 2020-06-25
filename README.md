@@ -1,6 +1,6 @@
-<div style="color:#ff1493">
-	 MyConfiguracion
-</div>
+<p style="color:#ff1493">
+	MyConfiguracion
+</p>
 Mi configuracion de i3 y polybar.
 
 <p align="center">
