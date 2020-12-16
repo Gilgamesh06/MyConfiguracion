@@ -1,11 +1,24 @@
+---
+
+<p align="center">
+	<a href="https://twitter.com/Gilgamesh_06">
+		<img src="/Images/icono.png" alt="twitter" width="80%" height="80%"/>
+	</a>
+</p>
+
+---
 
 # MyConfiguracion
 
 Mi configuracion de i3 y polybar.
 
+---
+
 <p align="center">
-  <img src="imagen.png" alt="Polybar">
+  <img src="Images/imagen.png" alt="Polybar">
 </p>
+
+---
 
 ## Clonan el repositorio
 
@@ -13,6 +26,8 @@ Mi configuracion de i3 y polybar.
 $ cd ~
 $ git clone https://github.com/Gilgamesh06/MyConfiguracion.git
 ```
+
+---
 
 ## Instalacion de los temas.
 
@@ -26,6 +41,8 @@ $ tar -xzvf "nombre de losr archivos con extencion"
 $ mv ~/MyConfiguracion/themas/thema/trollwut-pink-dark /usr/share/themes/
 $ mv ~/MyConfiguracion/themas/iconos/Simply-Pink-Circles /usr/share/icons
 ```
+
+---
 
 ## Administrar temas
 
@@ -45,6 +62,8 @@ $ sudo apt-get install lxappearance
 $ sudo dnf install lxappearance
 ```
 
+---
+
 ## Rofi 
 
 **Instalacion**
@@ -61,13 +80,15 @@ $ sudo apt-get install rofi
 $ sudo dnf install rofi
 ```
 
+---
+
 ## Tema Rofi
 
 ```
 $ mv ~/MyConfiguracion/themas/rofi/solarized-darker.rasi /usr/share/rofi/themes
 ```
 
-
+---
 
 ## Compton
 
@@ -90,6 +111,8 @@ $ sudo dnf install compton
 $ mv ~/MyConfiguracion/compton  ~/.config
 ```
 
+---
+
 ## Feh
 
 **Instalacion**
@@ -106,6 +129,7 @@ $ sudo apt-get install feh
 $ sudo dnf install feh
 ```
 
+---
 
 ## Polybar 
 
@@ -132,6 +156,9 @@ $ sudo dnf install -y cairo-devel xcb-util-devel libxcb-devel xcb-proto xcb-util
 $ sudo dnf install -y xcb-util-xrm-devel xcb-util-cursor-devel alsa-lib-devel pulseaudio-libs-devel i3-ipc jsoncpp-devel libmpdclient-devel libcurl-devel wireless-tools-devel libnl3-devel
 
 ```
+
+---
+
 ## Instalacion polybar 
 
 
@@ -161,6 +188,8 @@ $ sudo make install
 $ mv ~/MyConfiguracion/polybar  ~/.config
 ```
 
+---
+
 ## i3
 
 **Instalacion**
@@ -179,7 +208,9 @@ $ sudo dnf install i3
 
 ```
 
-### i3 archivo
+---
+
+## i3 archivo
 
 
 ```
@@ -189,11 +220,11 @@ $ mv ~/MyConfiguracion/.i3/config  ~/.config
 
 ```
 
-**Fondo de pantalla**
+### Fondo de pantalla
 
 *Si desea cambiarlo edite la **linea 37** del archivo config de que esta en la carpeta `~/.i3`*
 
-**Terminal**
+### Terminal
 
 la terminal por default es tilix si desea puede cambiarla modifique la **Linea 70** 
 
@@ -205,12 +236,12 @@ Si desea instalar **tilix.**
 $ sudo apt-get install tilix
 
 ```
-## Fedora
+### Fedora
 
 ```
 $ sudo dnf install tilix
 
 ```
 
-
+---
 
